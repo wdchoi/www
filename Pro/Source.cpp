@@ -162,7 +162,6 @@ int main(void)
 		glfwTerminate();
 		return -1;
 	}
-
 	/* Make the window's context current */
 	glfwMakeContextCurrent(window);
 	glClearColor(1, 1, 1, 1); // while background
